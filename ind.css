@@ -68,3 +68,50 @@ a {
     font-size: 0.9rem;
     color: #0a0808;
 }
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .text-section, .image-section {
+      max-width: 100%;
+      width: 100%;
+    }
+  
+    .features {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature {
+      width: 90%;
+      justify-content: center;
+      font-size: 1rem;
+    }
+  
+    .text-section h1,
+    .text-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .text-section p {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  
+    .image-section img {
+      max-width: 90%;
+      margin-top: 1rem;
+    }
+  
+    .footer {
+      position: static;
+      margin-top: 2rem;
+      color: #ffffff;
+      padding: 1rem;
+    }
+}
+  
